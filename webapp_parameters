@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "2062f2a0-87f8-4163-a975-012af2b0dd34"
+        },
+        "name": {
+            "value": "myweb002"
+        },
+        "location": {
+            "value": "Central India"
+        },
+        "hostingPlanName": {
+            "value": "ASP-DefaultResourceGroupCAU-bcab"
+        },
+        "serverFarmResourceGroup": {
+            "value": "DefaultResourceGroup-CAU"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "PremiumV2"
+        },
+        "skuCode": {
+            "value": "P1v2"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "PHP|8.0"
+        }
+    }
+}
